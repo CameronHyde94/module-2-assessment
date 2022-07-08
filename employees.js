@@ -100,7 +100,10 @@ class Manager extends Employee {
         super(name, shifts);
     }
     getEmployees() {
-        console.log(`${this.name} manages ${this.employees}`)
+        console.log(`${this.name} manages ${this.employees}`);
+    }
+    addEmployees(emp){
+        this.employees.push(emp);
     }
 }
 

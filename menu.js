@@ -126,9 +126,9 @@ const foodArr = [
 
 //CODE HERE
 
-const filteredFood = foodArr.filter(element => element.tags.includes('calzone')){
-    return element 
-}) 
+const filteredFood = foodArr.filter(element => element.tags.includes('calzone'));
+
+console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////

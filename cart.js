@@ -98,7 +98,7 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
 //CODE HERE
 const customer = {
     name: 'Cameron',
-    contactInfo: '888-888-8888', '3958 N Utah Dr', 'sample@email.com',
+    address: '3958 N Utah Dr',
     fuelPoints: 555,
     myWallet: xxxx-xxxx-xxxx-1000
 }
